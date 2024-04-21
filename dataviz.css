@@ -1,0 +1,306 @@
+@font-face {
+    font-family: Geist-Mono;
+    src: url(GeistMono.otf);
+}
+
+html {
+    width: 100%;
+    display: table;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+  
+body{
+    align-items: center;
+    background: #FFFFFF;
+    overflow-x: hidden;
+}
+
+.hero{
+    align-items: center;
+    padding-left: 25%;
+    padding-right:25%;
+}
+  
+.bg{
+    width:125%;
+    height:950px;
+    box-shadow: inset 0px 0px 85px rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top:-25%;
+    left:-20%;
+}
+
+h1{
+    font-size: 96px;
+    text-align: left;
+    font-family: "Geist-Mono";
+    color:#ffffff;
+    position: absolute;
+    width:68%;
+    top: 375px;
+    left: 5%;
+    z-index: 2;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 200;
+    text-align: left;
+    font-family: "SF Pro Display";
+    color:#FFFFFF;
+    position: absolute;
+    width:68%;
+    top: 560px;
+    left: 5%;
+    z-index: 2;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+    font-family: "SF Pro Display";
+    color:#717171;
+    position: absolute;
+    width:68%;
+    top: 820px;
+    left: 5%;
+    z-index: 2;
+}
+
+.about{
+    text-align:left;
+    width:851px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "SF Pro Display";
+    color:#1a1a1a;
+    line-height: 144.5%;
+    position: absolute;
+    top: 870px;
+    left: 5%;
+    z-index: 2;
+}
+
+.teammatestitle{
+    position: absolute;
+    top: 820px;
+    left: 75%;
+}
+
+ul{
+    text-align:left;
+    width:851px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "SF Pro Display";
+    color:#1a1a1a;
+    line-height: 144.5%;
+    position: absolute;
+    top: 870px;
+    left: 72.5%;
+    z-index: 2;
+    list-style-type: none;
+}
+
+
+.posterstitle{
+
+    font-size: 40px;
+    font-weight: 600;
+    text-align: left;
+    font-family: "SF Pro Display";
+    color:#1a1a1a;
+    position: absolute;
+    width:68%;
+    top: 1200px;
+    left: 5%;
+    z-index: 2;
+
+}
+
+.posterscont{
+    text-align:left;
+    width:100%;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "SF Pro Display";
+    color:#717171;
+    line-height: 144.5%;
+    position: absolute;
+    top:1280px;
+    left: 5%;
+    z-index: 2;
+}
+
+
+.landpol{
+    width:42.5%;
+    height:900px;
+    position: absolute;
+    top:1362px;
+    left:5%;
+    border-radius: 5px;
+}
+  
+.landcont{
+    background: rgba(0, 0, 0, 0.34);
+    border-radius: 5px;
+    width:42.5%;
+    height:900px;
+    position: absolute;
+    top:1362px;
+    left:5%;
+    opacity:0;
+    transition: 0.4s ease;
+    backdrop-filter:blur(100px);
+    border-radius: 2px;
+  
+}
+  
+.landcont:hover{
+    box-shadow: 4px 4px 25px 1px rgba(58, 58, 58, 0.541);
+    opacity:1;
+}
+
+
+.airpol{
+    width:42.5%;
+    height:900px;
+    position: absolute;
+    top:1362px;
+    left:52%;
+    border-radius: 5px;
+}
+  
+.aircont{
+    background: rgba(0, 0, 0, 0.34);
+    border-radius: 5px;
+    width:42.5%;
+    height:900px;
+    position: absolute;
+    top:1362px;
+    left:52%;
+    opacity:0;
+    transition: 0.4s ease;
+    backdrop-filter:blur(100px);
+    border-radius: 2px;
+  
+}
+  
+.aircont:hover{
+    box-shadow: 4px 4px 25px 1px rgba(58, 58, 58, 0.541);
+    opacity:1;
+}
+
+
+.noisepol{
+    width:42.5%;
+    height:900px;
+    position: absolute;
+    top:2335px;
+    left:52%;
+    border-radius: 5px;
+}
+  
+.noisecont{
+    background: rgba(0, 0, 0, 0.34);
+    border-radius: 5px;
+    width:42.5%;
+    height:900px;
+    position: absolute;
+    top:2335px;
+    left:52%;
+    opacity:0;
+    transition: 0.4s ease;
+    backdrop-filter:blur(100px);
+    border-radius: 2px;
+  
+}
+  
+.noisecont:hover{
+    box-shadow: 4px 4px 25px 1px rgba(58, 58, 58, 0.541);
+    opacity:1;
+}
+
+
+.waterpol{
+    width:42.5%;
+    height:900px;
+    position: absolute;
+    top:2335px;
+    left:5%;
+    border-radius: 5px;
+}
+  
+.watercont{
+    background: rgba(0, 0, 0, 0.34);
+    border-radius: 5px;
+    width:42.5%;
+    height:900px;
+    position: absolute;
+    top:2335px;
+    left:5%;
+    opacity:0;
+    transition: 0.4s ease;
+    backdrop-filter:blur(100px);
+    border-radius: 2px;
+  
+}
+  
+.watercont:hover{
+    box-shadow: 4px 4px 25px 1px rgba(58, 58, 58, 0.541);
+    opacity:1;
+}
+  
+.poltitle{ 
+    text-align:left;
+    width:85%;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "SF Pro Display";
+    color:#ffffff;
+    line-height: 144.5%;
+    position: absolute;
+    top:20px;
+    
+}
+  
+.polcont{
+  
+    text-align:left;
+    width:90%;
+    font-size: 20px;
+    font-family: "SF Pro Display";
+    color:#E6E6E6;
+    line-height: 144.5%;
+    position: absolute;
+    top: 60px;
+    left: 5%;
+    z-index: 2;
+    
+}
+  
+.footer{
+    width:100%;
+    height:250px;
+    background-color: #F8F8F8;
+    position: absolute;
+    top: 3300px;
+    left: center;
+
+}
+
+.footercont{
+    text-align:center;
+    width:90%;
+    font-size: 30px;
+    font-family: "Geist-Mono";
+    color:#1a1a1a;
+    line-height: 144.5%;
+    position: absolute;
+    top: 60px;
+    left: 5%;
+    z-index: 2;
+}
